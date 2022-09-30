@@ -154,7 +154,6 @@ const Exchange = ({ pools }) => {
             : "bg-site-dim2 text-site-dim2"
           } ${styles.actionButton}`
         }>
-        {isApproving ? "Approving..." : "Approve"}
         {isSwapping ? "Swapping..." : hasEnoughBalance ? "Swap" : "insufficient balance"}
       </button>
       }
